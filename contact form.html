@@ -8,11 +8,26 @@
 </head>
 <body>
 	<h1 align="center">Contact us via this form</h1>
-			<span style="display: block;" id="firstname">First name</span>
-			<input style="margin-bottom: 10px;" id="firstname" type="text" placeholder="First name">
-		
-			<span id="lastname">Last name</span>
-			<input style="margin-bottom: 10px;" id="lastname" type="text" placeholder="Last name">
+		<table>
+			
+			<tbody>
+				<tr>
+					<td>
+						<label for="firstname">First Name</label><br>
+						<input type="text" id="firstname" placeholder="First name">
+					</td>
+
+					<td></td>
+
+					<td width="10em;">
+						<label for="lastname">Last Name</label><br>
+						<input type="text" id="lastname" placeholder="Last name">
+					</td>
+
+				</tr>
+			</tbody>
+
+		</table>
 		
 
 		<div id="regarding">
@@ -25,6 +40,14 @@
 				<input id="business" value="business" type="radio" name="regarding">Business context
 			</label>
 		</div>
+
+	<br>
+    Extra Infos: <br>
+    <textarea  name="message" rows ="10" cols= "30">Lorem ipsum default text.
+    </textarea >
+    <br>
+    <br>
+    <input  type="submit"  value="contact us">
 
 <body>		
 </html>
